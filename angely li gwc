@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<style>
+
+  h1 { color: #EE104D; font-size: 40px;font-family:cursive;}
+  p {color: #6110EE; font-size: 20px; font-family: sans-serif;}
+  h2 { color: #1089EE; font-size: 25px; font-family: arial;}
+
+</style>
+<head>
+  <title>
+    ALPERSONALWEBSITE
+    </title>
+</head>
+
+<body>
+
+  <text align="center">
+  <button type="button" onclick=myFunction() text-align=center>CLICK HERE!</button>
+  <div style= "padding:30px;margin:0 100px;border:10px dotted skyblue;text-align:center">
+  <h1>More About Me</h1>
+  </div>
+  <P id="myParagraph"> Hey guys! </p>
+  <p> Welcome to my personal website, where I would share a little bit about my hobbies and who am I. </P>
+  <P></P>
+  <P> I'm Angely Li and I have 16 years old. I'm from NYC, QUEENS.</p>
+
+  <img src="https://blogs.baruch.cuny.edu/dennislee/files/2012/09/Unisphere.jpeg" width="500px" align="center">
+
+  <p> I study in Flushing International High School, which is located in Queens.</p>
+
+  <img src="https://static.wixstatic.com/media/02aeca_ff6f8aa5725243eabbbbaab622fb3485~mv2.gif/v1/fit/w_2500,h_1330,al_c/02aeca_ff6f8aa5725243eabbbbaab622fb3485~mv2.gif" height="300px" width="400px" align="center">
+
+  <h2>WHAT I LIKE TO DO?</h2>
+  <p> On my free time, I like to spend time with my friends and also family, also I enjoy to play sports or games with them, go to visit new places, try new food places. Other thing that I like to do on my free time is, watch series or movies.</p>
+
+  <img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fmaking-the-web.com%2Fsites%2Fdefault%2Ffiles%2Fclipart%2F141811%2Fsports-animated-141811-1980675.jpg&imgrefurl=https%3A%2F%2Fmaking-the-web.com%2Fsports-animated&docid=aWF5ewA47RP8MM&tbnid=9lZuUSv-8e9DFM%3A&vet=10ahUKEwjiqJeix8vjAhXHrFkKHdT-B-YQMwhrKAYwBg..i&w=630&h=350&safe=strict&bih=757&biw=1600&q=sports%20animated&ved=0ahUKEwjiqJeix8vjAhXHrFkKHdT-B-YQMwhrKAYwBg&iact=mrc&uact=8" height="300px" width="400px">
+</div>
+</body>
+
+<script>
+  document.getElementById("myParagraph").style.color = "red"
+
+  function myFunction() {
+    alert("hi everybody! this is my website, I try my best, hope you enjoy it.");
+    document.getElementById("myParagraph").style.color="navy"
+  }
+  </script>
+</html>
+
